@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning | SkillUp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">SkillUp</a>
+            <nav class="main-nav">
+                <a href="index.html#courses">Courses</a>
+                <a href="my-learning.html" style="color: var(--accent-primary);">My Learning</a>
+            </nav>
+            <div class="auth-buttons">
+                 <!-- In a real app, this would be a user profile dropdown -->
+                <a href="#" class="btn-secondary">My Account</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="dashboard-header">
+            <h1>My Learning</h1>
+        </div>
+        <div id="my-courses-grid" class="course-grid">
+            <!-- Owned courses will be injected here -->
+            <div class="loader"></div>
+        </div>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 SkillUp. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="my-learning.js"></script>
+</body>
+</html>
